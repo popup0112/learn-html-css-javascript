@@ -1,9 +1,25 @@
-div {
-  color: green;
+body {
+  text-align: center;
+  font-family: "dongle";
 }
-p {
-  color: rgb(79, 0, 79);
+
+button {
+  background-color: skyblue;
+  border: none;
+  transition-duration: 0.4s;
 }
+button:hover {
+  background-color: cornflowerblue;
+}
+
 .done {
   text-decoration: line-through;
+  color: grey;
+}
+input {
+  border: none;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
 }
