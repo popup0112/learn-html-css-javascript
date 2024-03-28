@@ -2,6 +2,9 @@ body {
   text-align: center;
   font-family: "dongle";
 }
+#할일들 > p {
+  cursor: pointer;
+}
 
 button {
   background-color: skyblue;
@@ -10,6 +13,7 @@ button {
 }
 button:hover {
   background-color: cornflowerblue;
+  cursor: pointer;
 }
 
 .done {
@@ -22,4 +26,5 @@ input {
   border-top: 1px solid;
   border-left: 1px solid;
   border-right: 1px solid;
+  cursor: pointer;
 }
